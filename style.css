@@ -1,7 +1,8 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
+  background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/dark-triangles.png');
   background-size: cover;
-  color: #333;
+  color: white;
 }
 
 #quiz-area {
@@ -10,4 +11,11 @@ body {
   background-color: #fff;
   border-radius: 10px;
   display: inline-block;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
 }
